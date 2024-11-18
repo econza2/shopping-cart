@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.cartContainer {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+}
+
+.orderNumberCart {
+  position: relative;
+}
+
+.orderNumber {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-color: red;
+  top: 70px;
+  left: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkOutLink {
+  height: 100%;
+  width: 150px;
+  background-color: gold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

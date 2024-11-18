@@ -1,0 +1,30 @@
+.itemsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.items {
+  border-color: green;
+  border-style: solid;
+  padding: 20px;
+}
+
+.imageDimensions {
+  height: 200px;
+  width: 200px;
+}
+
+.centerImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+}
